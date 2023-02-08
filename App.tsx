@@ -26,7 +26,7 @@ export default function App() {
         backgroundColor: theme.colors.background,
       }}
     >
-      <StatusBar style="light" />
+      <StatusBar style="light" backgroundColor="transparent" translucent />
     </View>
   );
 }
