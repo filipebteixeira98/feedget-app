@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import AppLoading from 'expo-app-loading';
