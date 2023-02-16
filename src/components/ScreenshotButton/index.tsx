@@ -1,9 +1,10 @@
-import { Camera, Trash } from 'phosphor-react-native';
 import React from 'react';
 import { View, TouchableOpacity, Image } from 'react-native';
-import { theme } from '../../theme';
+import { Camera, Trash } from 'phosphor-react-native';
 
 import { styles } from './styles';
+
+import { theme } from '../../theme';
 
 interface Props {
   screenshot: string | null;
