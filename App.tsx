@@ -8,6 +8,8 @@ import {
   Inter_500Medium,
 } from '@expo-google-fonts/inter';
 
+import Widget from './src/components/Widget';
+
 import { theme } from './src/theme';
 
 export default function App() {
@@ -28,6 +30,7 @@ export default function App() {
       }}
     >
       <StatusBar style="light" backgroundColor="transparent" translucent />
+      <Widget />
     </View>
   );
 }
